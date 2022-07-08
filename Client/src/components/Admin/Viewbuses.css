@@ -1,0 +1,13 @@
+td,th{
+    border:0.1px solid #ccc;
+  }
+ 
+
+  .parent {
+    display: grid; 
+  grid-template-columns: 1fr 1fr; 
+  grid-template-rows: 1fr; 
+  gap: 0px 0px; 
+  grid-template-areas: 
+    ". ."; 
+    }
